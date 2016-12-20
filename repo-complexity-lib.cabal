@@ -2,12 +2,12 @@ name:                repo-complexity-lib
 version:             0.1.0.0
 synopsis:            Initial project template from stack
 description:         Please see README.md
-homepage:            https://github.com/githubuser/repo-complexity-lib#readme
+homepage:            https://github.com/ShifanGu/repo-complexity-lib.git#readme
 license:             BSD3
 license-file:        LICENSE
-author:              Author name here
-maintainer:          example@example.com
-copyright:           2016 Author name here
+author:              Shifan Gu
+maintainer:          shgu@tcd.ie
+copyright:           2016 Shifan Gu
 category:            Web
 build-type:          Simple
 extra-source-files:  README.md
@@ -45,4 +45,4 @@ test-suite repo-complexity-lib-test
 
 source-repository head
   type:     git
-  location: https://github.com/githubuser/repo-complexity-lib
+  location: https://github.com/ShifanGu/repo-complexity-lib.git
