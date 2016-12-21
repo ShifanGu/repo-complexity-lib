@@ -13,7 +13,7 @@ type API = "load_environment_variables" :> QueryParam "name" String :> Get '[JSO
       :<|> "projectComplexity"          :> QueryParam "url" String:> Get '[JSON] (String,Double)
 ```
 # Useage
-1. open your <code>stack.yaml</code> file and add the following code
+1.open your <code>stack.yaml</code> file and add the following code
 ```haskell
 packages:
   - '.'
@@ -21,12 +21,12 @@ packages:
       git: https://github.com/ShifanGu/repo-complexity-lib.git
       commit: 6abc73951d4b6161523dcb3498e0c80bf999c553
 ```
-2. Then open <code>your-project.cabal</code> and edit the build-depends
+2.Then open <code>your-project.cabal</code> and edit the build-depends
 ```haskell
   build-depends:       base >= 4.7 && < 5
                      , repo-complexity-lib
 ```
-3. Import this API inside your project
+3.Import this API inside your project
 ```haskell
 import           RepoComplexityApi
 ```
