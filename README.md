@@ -26,7 +26,7 @@ packages:
   build-depends:       base >= 4.7 && < 5
                      , repo-complexity-lib
 ```
-3.Import this API inside your project
+3. Import this API inside your project
 ```haskell
 import           RepoComplexityApi
 ```
